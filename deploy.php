@@ -47,10 +47,9 @@ server('test', '149.58.155.192')
 
 desc('Deploy your project');
 task('deploy', [
-	'deploy:start_info',
     'deploy:prepare',
     'deploy:lock',
-	'deploy:backup_db',
+    'deploy:backup_db',
     'deploy:release',
     'deploy:update_code',
     'deploy:shared',
