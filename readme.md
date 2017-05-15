@@ -16,7 +16,7 @@ Was du hier bekommst, sind Beispiel Dateien mit den du ein WordPress mit compose
 3. Öffne die `deployer.php` und ergänze deine Server
 4. Öffne `wp-config.php.dist`und ergänze deine Einstellungen
 5. Ersten deploy anstoßen. `dep deploy`
-5. Auf dem Ziel-Server entweder das Documentroot oder einen Symlink auf `deployment/current/html`setzten.
+5. Auf dem Ziel-Server entweder das Documentroot oder einen Symlink auf `deployment/current/html/wp-core/`setzten.
 6. WordPress installieren.
 
 Auf dem Zeil-Server wird deployer unter `deployment` ein Verzeichniss `releases/[RELEASE_NR]` und einen Symlink `current`, der nach `releases/[RELEASE_NR]` zeigt anlegen. Nach dem deploy wird `current`wie folgt aussehen.
