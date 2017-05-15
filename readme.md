@@ -20,6 +20,8 @@ drwxr-xr-x   3 renereimann  staff   102 13 Mai 06:43 wp-content
 drwxr-xr-x  22 renereimann  staff   748 13 Mai 06:43 wp-core
 ```
 
+---
+
 ### Über mich
 ```
 /**
