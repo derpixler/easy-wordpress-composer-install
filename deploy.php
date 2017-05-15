@@ -5,7 +5,7 @@ require 'recipe/common.php';
 // Configuration
 
 set('default_stage', 'test');
-set('repository', 'git@github.com:derpixler/easy-wordpress-composer-install.git');
+set('repository', 'https://github.com/derpixler/easy-wordpress-composer-install.git');
 
 // Servers
 
