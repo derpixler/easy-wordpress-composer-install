@@ -4,10 +4,10 @@ Was du hier bekommst, sind Beispiel Dateien mit den du ein WordPress mit compose
 
 ## Kurz erklärt
 
-prepare.sh - ist ein bashscript, welches die wp-config.php.dist nach `html/` kopiert.
-wp-config.php.dist - zum versionieren von Änderungen an der config.
-deployer.php - [deployer.org](deployer.org) wird zum deployen verwendet. Siehe: [Deployment - state of the art](https://github.com/derpixler/Deployment-state-of-the-art)
-composer.json - Projektzusammensetzung
+ * prepare.sh - ist ein bashscript, welches die wp-config.php.dist nach `html/` kopiert.
+ * wp-config.php.dist - zum versionieren von Änderungen an der config.
+ * deployer.php - [deployer.org](deployer.org) wird zum deployen verwendet. Siehe: [Deployment - state of the art](https://github.com/derpixler/Deployment-state-of-the-art)
+ * composer.json - Projektzusammensetzung
 
 ## How to use
 
