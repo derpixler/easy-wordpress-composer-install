@@ -11,9 +11,15 @@ Was du hier bekommst, sind Beispiel Dateien mit den du ein WordPress mit compose
 
 ## How to use
 
-Mit `$ composer install` wird der WordPress Core in das Verzeichniss `html/wp-core` und wp-content in `html/wp-content` installiert, die wp-config.php.dist wird nach `html/wp-config.php` kopiert. Ìn der `wp-config.php.dist` wird der `WP_CONTENT_DIR auf das Verzeichniss `html/wp-content` geleitet.
+1. Git Repo clonen: `$ git clone https://github.com/derpixler/easy-wordpress-composer-install.git dein-projekt`
+2. In das Verzeichniss `$ cd dein-projekt` wechseln
+3. Öffne die `deployer.php` und ergänze deine Server
+4. Öffne `wp-config.php.dist`und ergänze deine Einstellungen
+5. Ersten deploy anstoßen. `dep deploy`
+5. Auf dem Ziel-Server entweder das Documentroot oder einen Symlink auf `deployment/current/html`setzten.
+6. WordPress installieren.
 
-Das Verzeichniss `html/` nach `composer install`
+Auf dem Zeil-Server wird deployer unter `deployment` ein Verzeichniss `releases/[RELEASE_NR]` und einen Symlink `current`, der nach `releases/[RELEASE_NR]` zeigt anlegen. Nach dem deploy wird `current`wie folgt aussehen.
 ```
 -rw-r--r--@  1 renereimann  staff  2853 13 Mai 06:43 wp-config.php
 drwxr-xr-x   3 renereimann  staff   102 13 Mai 06:43 wp-content
