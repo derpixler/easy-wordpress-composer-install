@@ -13,7 +13,7 @@ Was du hier bekommst, sind Beispiel Dateien mit den du ein WordPress mit compose
 
 Mit `$ composer install` wird der WordPress Core in das Verzeichniss `html/wp-core` und wp-content in `html/wp-content` installiert, die wp-config.php.dist wird nach `html/wp-config.php` kopiert. Ìn der `wp-config.php.dist` wird der `WP_CONTENT_DIR auf das Verzeichniss `html/wp-content` geleitet.
 
-Das Verzeichniss `html/` nach `omposer install`
+Das Verzeichniss `html/` nach `composer install`
 ```
 -rw-r--r--@  1 renereimann  staff  2853 13 Mai 06:43 wp-config.php
 drwxr-xr-x   3 renereimann  staff   102 13 Mai 06:43 wp-content
