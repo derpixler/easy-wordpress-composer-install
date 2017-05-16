@@ -21,9 +21,12 @@ Was du hier bekommst, sind Beispiel Dateien mit den du ein WordPress mit compose
 
 Auf dem Zeil-Server wird deployer unter `deployment` ein Verzeichniss `releases/[RELEASE_NR]` und einen Symlink `current`, der nach `releases/[RELEASE_NR]` zeigt anlegen. Nach dem deploy wird `current`wie folgt aussehen.
 ```
--rw-r--r--@  1 renereimann  staff  2853 13 Mai 06:43 wp-config.php
-drwxr-xr-x   3 renereimann  staff   102 13 Mai 06:43 wp-content
-drwxr-xr-x  22 renereimann  staff   748 13 Mai 06:43 wp-core
+-rw-r--r--@ 1 renereimann  staff   946 13 Mai 12:52 composer.json
+-rw-r--r--  1 renereimann  staff  8617 13 Mai 12:43 composer.lock
+-rwxr-xr-x@ 1 renereimann  staff   553 13 Mai 12:42 prepare.sh
+-rw-r--r--@ 1 renereimann  staff  2919 13 Mai 12:50 wp-config.php.dist
+drwxr-xr-x  5 renereimann  staff   170 13 Mai 12:43 html
+drwxr-xr-x  5 renereimann  staff   170 13 Mai 12:43 vendor
 ```
 
 ---
