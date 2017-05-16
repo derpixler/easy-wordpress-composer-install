@@ -1,5 +1,3 @@
-..
-
 # Ein paar Worte zu diesem Repo
 
 Was du hier bekommst, sind Beispiel Dateien mit den du ein WordPress mit composer installieren kannst.
