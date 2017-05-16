@@ -11,9 +11,11 @@ Was du hier bekommst, sind Beispiel Dateien mit den du ein WordPress mit compose
 
 ## How to use
 
-1. Git Repo clonen: `$ git clone https://github.com/derpixler/easy-wordpress-composer-install.git dein-projekt`
+1. Git Repo clonen: 
+   `$ git clone https://github.com/derpixler/easy-wordpress-composer-install.git dein-projekt`
 2. In das Verzeichniss `$ cd dein-projekt` wechseln
-3. Öffne die `deployer.php` und ergänze deine Server. Für mehr infos schaue dir den [deployer](https://derpixler.github.io/Deployment-state-of-the-art/#deployer) teil an. (press key down!)
+3. Öffne die `deployer.php` und ergänze deine Server. 
+   Für mehr infos schaue dir den [deployer](https://derpixler.github.io/Deployment-state-of-the-art/#deployer) teil an. (press key down!)
 4. Öffne `wp-config.php.dist`und ergänze deine Einstellungen
 5. Ersten deploy anstoßen. `dep deploy`
 5. Auf dem Ziel-Server entweder das Documentroot oder einen Symlink auf `deployment/current/html/wp-core/`setzten.
